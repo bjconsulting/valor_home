@@ -16,6 +16,9 @@ module.exports = {
       colors:{
         'prim': '#313F55',
       },
+      backgroundImage: {
+        'bg-h': "url('../public/banner1.jpg')"
+      },
     },
   },
   plugins: [],

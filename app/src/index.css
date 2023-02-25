@@ -76,6 +76,8 @@ html {
 body {
   line-height: 1;
   overflow-x: hidden;
+  max-width: 100vw;
+  overflow-x: hidden;
   margin: 0;
   font-family: 'neo-sans-std', sans-serif;
   font-weight: 400;
@@ -83,7 +85,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4  {
+  font-family: 'neo-sans-std', sans-serif;
+}
+
+P {
   font-family: 'nexa', sans-serif;
   font-weight: bold;
 }
