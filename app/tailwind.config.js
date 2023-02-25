@@ -15,6 +15,7 @@ module.exports = {
     extend: {
       colors:{
         'prim': '#313F55',
+        'sub': '#D5B473',
       },
       backgroundImage: {
         'bg-h': "url('../public/banner1.jpg')"
