@@ -5,13 +5,14 @@ import logo from './img/logo.png'
 import logo2 from './img/logo_2.png'
 
 
+
 function Header3() {
     const [open, setOpen] = useState(false);
     return (
         <>
             <header className="w-full p-8">
-                <div className="max-w-[90%] mx-auto flex justify-between pointer-events-none">
-                    <picture>
+                <div className="max-w-[90%] mx-auto flex justify-between">
+                    <picture className="pointer-events-none">
                         <source media="(min-width:1024px)" srcSet={logo2} width='250px' />
                         <img src={logo} alt="Valor Serviços" width='auto' />
                     </picture>

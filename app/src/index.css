@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 
-::root {
+:root {
   --sub-color:  #D5B473;
   --prim: #313F55;
 }
@@ -75,6 +75,7 @@ html {
 
 body {
   line-height: 1;
+  overflow-x: hidden;
   margin: 0;
   font-family: 'neo-sans-std', sans-serif;
   font-weight: 400;
@@ -87,11 +88,12 @@ h1, h2, h3, h4 {
   font-weight: bold;
 }
 
+
 .menu_item {
   font-weight: bold;
-  padding: 1.1em 0;
+  margin: 1.1em 0;
   color: white;
-  font-family: 'neo-sans-std'; 
+  font-family: 'nexa'; 
   font-size: 1.1em;
 }
 .menu_item:hover, 
@@ -99,3 +101,8 @@ h1, h2, h3, h4 {
   color: var(--sub-color);
 }
 
+.ham, 
+.ham2, 
+.ham3 {
+  background-color: var(--prim);
+}
