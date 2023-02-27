@@ -1,10 +1,10 @@
 import React from 'react';
-import Header3 from './Header3';
+import Header from './Header';
 
 function Dobra1() {
     return (
         <>
-            <Header3 />
+            <Header />
             <div className="flex flex-col justify-center items-start max-w-[100vw] min-h-[35vh] py-10  bg-bg-h bg-no-repeat  bg-[length:auto_100%]">
                 <div className="pl-4 flex flex-col justify-center max-w-[70%]">
                     <h1 className="text-[13px] text-white max-w-[70%] ">Um Jeito Mais Consciente de Fazer Empréstimo.</h1>
