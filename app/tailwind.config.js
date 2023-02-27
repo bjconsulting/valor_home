@@ -14,7 +14,7 @@ module.exports = {
     },
     extend: {
       colors:{
-        'prim': '#313F55',
+        'prim': '#404F5C',
         'sub': '#D5B473',
       },
       backgroundImage: {

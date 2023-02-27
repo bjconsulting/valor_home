@@ -1,13 +1,10 @@
-// const nav = document.querySelector('.nav') as HTMLElement;
 
 function Menu({ open }: { open: boolean }) {
-    // if (!nav) return; else {
-    //     open ? nav.style.transform = "translateX(0%)" : nav.style.transform = "translateX(100%)";
-    // };
     if (!open) return null;
+    
     return (
-        // <nav className='hidden flex-col justify-center bg-prim h-[100vh] text-left p-[2em] absolute top-0 right-0 transition-transform translate-x-[100%] nav'>
-        <nav className='flex flex-col justify-center bg-prim h-[100vh] text-left p-[2em] absolute top-0 right-0 nav'>
+
+        <nav className='flex flex-col justify-center bg-prim h-[100vh] text-left p-[2em] absolute top-0 right-0 nav transition-all'>
             <a href="#home" className='menu_item'>
                 Home
             </a>
