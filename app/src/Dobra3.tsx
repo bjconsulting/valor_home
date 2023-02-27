@@ -78,7 +78,7 @@ function Dobra3() {
                     <picture>
                         <source media="(min-width:800px)" srcSet={img2b} width='auto' />
 
-                        <img src={img2} alt="Empréstimo com Garantia FGTS" width='152px' className=" border-white rounded-lg" />
+                        <img src={img2} alt="Crédito Consignado INSS" width='152px' className=" border-white rounded-lg" />
                     </picture>
 
                     <div className='px-2'>
@@ -130,7 +130,7 @@ function Dobra3() {
                     <picture>
                         <source media="(min-width:800px)" srcSet={img3b} width='auto' />
 
-                        <img src={img3} alt="Empréstimo com Garantia FGTS" width='152px' className=" border-white rounded-lg" />
+                        <img src={img3} alt="Crédito Consignado Servidor Publico" width='152px' className=" border-white rounded-lg" />
                     </picture>
 
                     <div className='px-2'>
