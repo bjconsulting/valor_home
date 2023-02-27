@@ -4,9 +4,7 @@ import Menu from "./Menu";
 import logo from './img/logo.png'
 import logo2 from './img/logo_2.png'
 
-
-
-function Header3() {
+function Header() {
     const [open, setOpen] = useState(false);
     return (
         <>
@@ -26,4 +24,4 @@ function Header3() {
         </>
     )
 }
-export default Header3
+export default Header
