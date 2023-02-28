@@ -100,7 +100,7 @@ P {
   margin: 1.1em 0;
   color: white;
   font-family: 'nexa'; 
-  font-size: 1.1em;
+  font-size: 1.4em;
 }
 .menu_item:hover, 
 .menu_item:focus{
@@ -113,4 +113,11 @@ P {
 .ham2, 
 .ham3 {
   background-color: var(--prim);
+}
+
+
+@media (min-width:640px){
+  .menu_item {
+    font-size: 2em;
+  }
 }
