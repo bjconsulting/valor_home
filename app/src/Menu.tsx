@@ -4,7 +4,7 @@ function Menu({ open }: { open: boolean }) {
     
     return (
 
-        <nav className='flex flex-col justify-center bg-prim h-[100vh] text-left p-[2em] absolute top-0 right-0 nav transition-all'>
+        <nav className='flex flex-col justify-center bg-prim h-[100vh] text-left p-[2em] absolute top-0 right-0 nav transition-all tablet:w-1/3'>
             <a href="#home" className='menu_item'>
                 Home
             </a>

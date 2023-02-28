@@ -9,16 +9,16 @@ function Header() {
     return (
         <>
             <header className="w-full py-8">
-                <div className="max-w-[90%] mx-auto flex justify-between">
+                <div className="max-w-[85%] mx-auto flex justify-between">
                     <picture className="pointer-events-none">
-                        <source media="(min-width:1024px)" srcSet={logo2} width='250px' />
+                        <source media="(min-width:640px)" srcSet={logo2} width='250px' />
                         <img src={logo} alt="Valor Serviços" width='150px' />
                     </picture>
 
-                    <div>
-                        <Hamb open={open} setOpen={setOpen} />
-                        <Menu open={open}/>
-                    </div>
+
+                    <Hamb open={open} setOpen={setOpen} />
+                    <Menu open={open}/>
+
                 </div>
             </header>
         </>
