@@ -29,11 +29,9 @@ function Menu({ open }: { open: boolean }) {
                 Sobre
             </a>
 
-            <a href="#home menu_item">
-                <button className="flex justify-center items-center  py-5 font-bold text-[1.8em]  text-white">
-                    Saiba mais
-                </button>
-            </a>
+            <button className="flex justify-start items-center  font-bold menu_item text-white">
+                Saiba mais
+            </button>
 
         </nav>
     )

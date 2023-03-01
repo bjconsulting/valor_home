@@ -28,11 +28,10 @@ function Menu2() {
                 Sobre
             </a>
 
-            <a href="#home">
-                <button className="flex justify-center items-center px-6 py-3 font-bold bg-sub text-white rounded-md hover:bg-prim transition-all">
-                    Saiba mais
-                </button>
-            </a>
+            <button className="flex justify-center items-center px-6 py-3 font-bold bg-sub text-white rounded-md hover:bg-prim transition-all">
+                Saiba mais
+            </button>
+            
         </nav>
     )
 }

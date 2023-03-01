@@ -128,3 +128,27 @@ P {
 .ul_footer li a:hover {
   color: var(--sub-color);
 }
+
+.menu2 a {
+  position: relative;
+}
+.menu2 a::after {
+  content:'';
+  display: hidden;
+  position: absolute;
+  width: 0%;
+  height: 3px;
+  background-color: var(--sub-color);
+  bottom:-20%;
+  z-index:100;
+  left:0;
+}
+
+.menu2 a:hover::after {
+  animation: animation .1s linear forwards;
+}
+
+@keyframes animation {
+  0% { width:0%; }
+  100% { width:100%; }
+}
