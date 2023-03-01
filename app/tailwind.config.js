@@ -18,7 +18,8 @@ module.exports = {
         'sub': '#D5B473',
       },
       backgroundImage: {
-        'bg-h': "url('../public/banner1.jpg')"
+        'bg-h': "url('../public/banner1.jpg')",
+        'bg-h2': "url('../public/banh-2.jpg')"
       },
     },
   },
