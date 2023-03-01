@@ -5,8 +5,8 @@ import logo2 from './img/logo_wb.png'
 
 function Footer() {
     return(
-        <div className="py-10 flex flex-col tablet:flex-row bg-prim gap-4 tablet:justify-center tablet:items-top">
-            <div className="flex flex-col justify-start items-center text-center text-white gap-7 max-w-[80%] mx-auto tablet:basis-[25%]">
+        <div className="py-10 flex flex-col tablet:flex-row bg-prim gap-4 tablet:justify-center tablet:items-top desktop:py-20">
+            <div className="flex flex-col justify-start items-center text-center text-white gap-7 max-w-[80%] mx-auto tablet:basis-[25%] desktop:basis-[20%] desktop:items-start">
                 <picture className="pointer-events-none">
                     <source media="(min-width:640px)" srcSet={logo2} width='250px' />
                     <img src={logo} alt="Valor Serviços" width='150px' />
@@ -16,9 +16,9 @@ function Footer() {
                 </p>
             </div>
 
-            <div className="flex flex-col gap-2 justify-center items-center tablet:basis-[20%] tablet:justify-center tablet:items-start">
+            <div className="flex flex-col gap-2 justify-center items-center tablet:basis-[20%] tablet:justify-center tablet:items-start desktop:basis-[10%]">
                 <h3 className='font-bold text-center text-white text-[19px] my-5 tablet:mt-0 mb-7 tablet:text-left'>Links Rápidos</h3>
-                <ul className="text-center flex flex-col gap-4 text-white font-light tablet:text-left">
+                <ul className="ul_footer text-center flex flex-col gap-4 text-white font-light tablet:text-left">
                     <li><a href="#home"> Serviços </a> </li>
                     <li><a href="#home"> Contato </a></li>
                     <li><a href="#home"> Depoimentos </a></li>

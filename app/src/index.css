@@ -124,3 +124,7 @@ P {
     font-size: 2em;
   }
 }
+
+.ul_footer li a:hover {
+  color: var(--sub-color);
+}
