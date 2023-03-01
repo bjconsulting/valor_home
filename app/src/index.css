@@ -95,6 +95,13 @@ P {
 }
 
 
+.menu2 .menu_item {
+  font-weight: bold;
+  margin: 1.1em 0;
+  color: var(--prim);
+  font-family: 'nexa'; 
+  font-size: 1.2em;
+}
 .menu_item {
   font-weight: bold;
   margin: 1.1em 0;
@@ -107,13 +114,6 @@ P {
   color: var(--sub-color);
 }
 
-
-
-.ham, 
-.ham2, 
-.ham3 {
-  background-color: var(--prim);
-}
 
 
 @media (min-width:640px){

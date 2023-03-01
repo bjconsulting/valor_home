@@ -1,10 +1,9 @@
 
-function Menu({ open }: { open: boolean }) {
-    if (!open) return null;
+function Menu2() {
     
     return (
 
-        <nav className='flex flex-col justify-center bg-prim h-[100vh] text-left p-[2em] absolute top-0 right-0 nav transition-all tablet:w-1/3'>
+        <nav className='hidden desktop:flex  menu2 flex-row justify-around items-center  text-left p-[2em] w-[60%] transition-all '>
             <a href="#home" className='menu_item'>
                 Home
             </a>
@@ -29,14 +28,13 @@ function Menu({ open }: { open: boolean }) {
                 Sobre
             </a>
 
-            <a href="#home menu_item">
-                <button className="flex justify-center items-center  py-5 font-bold text-[1.8em]  text-white">
+            <a href="#home">
+                <button className="flex justify-center items-center px-6 py-3 font-bold bg-sub text-white rounded-md hover:bg-prim transition-all">
                     Saiba mais
                 </button>
             </a>
-
         </nav>
     )
 }
 
-export default Menu;
+export default Menu2;
