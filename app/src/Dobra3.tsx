@@ -21,9 +21,9 @@ function Dobra3() {
                     Confira os Nossos <span className="text-sub">Serviços</span> Disponíveis
                 </h2>
 
-                <div className=' flex flex-col tablet:flex-row tablet:justify-center  tablet:max-w-[90%]'>
+                <div className=' flex flex-col tablet:flex-row tablet:justify-center  tablet:max-w-[90%] gap-4'>
 
-                    <div className=" items flex flex-col justify-center items-center bg-prim  py-4 rounded-xl max-w-[50%] mx-auto tablet:max-w-[calc(100%/4)]">
+                    <div className=" items flex flex-col items-center bg-prim  py-4 rounded-xl max-w-[50%] mx-auto tablet:max-w-[calc(100%/4)]">
 
                         <picture>
                             <source media="(min-width:640px)" srcSet={img1b} width='auto' />
@@ -92,7 +92,7 @@ function Dobra3() {
 
                                 <div className="flex flex-row justify-start items-center gap-2 w-full text-left px-5 text-white desktop:px-1">
                                     <BsPeopleFill className='min-w-[14px] desktop:min-w-[30px] desktop:min-h-[25px]' />
-                                    <p className="font-normal text-[8px] desktop: text-base">
+                                    <p className="font-normal text-[8px] desktop:text-base">
                                         Aposentados, pensionistas, beneficiário do Loas e Representante Legal.
                                     </p>
                                 </div>
