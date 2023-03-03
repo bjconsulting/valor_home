@@ -25,7 +25,7 @@ function Menu({ open }: { open: boolean }) {
                 Blog
             </a>
 
-            <a href="#s" className='menu_item'>
+            <a href="../sobre/" className='menu_item'>
                 Sobre
             </a>
 

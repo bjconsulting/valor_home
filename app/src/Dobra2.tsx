@@ -8,8 +8,8 @@ import mock from './img/mock.png'
 function Dobra2() {
     return (
         <>
-            <div className="w-full bg-prim">
-                <div className="flex justify-center py-8 px-4 gap-4 tablet:gap-6 desktop:max-w-[90%] desktop:mx-auto desktop: py-16">
+            <div id="serviços" className="w-full bg-prim">
+                <div className="flex justify-center py-8 px-4 gap-4 tablet:gap-6 desktop:max-w-[90%] desktop:mx-auto desktop:py-16">
                     <div className='hidden desktop:block'>
                         <img src={mock} alt="MockUp de iPhone" width='380px' height='auto' />
                     </div>

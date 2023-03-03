@@ -19,11 +19,11 @@ function Footer() {
             <div className="flex flex-col gap-2 justify-center items-center tablet:basis-[20%] tablet:justify-center tablet:items-start desktop:basis-[10%]">
                 <h3 className='font-bold text-center text-white text-[19px] my-5 tablet:mt-0 mb-7 tablet:text-left'>Links Rápidos</h3>
                 <ul className="ul_footer text-center flex flex-col gap-4 text-white font-light tablet:text-left">
-                    <li><a href="#home"> Serviços </a> </li>
-                    <li><a href="#home"> Contato </a></li>
-                    <li><a href="#home"> Depoimentos </a></li>
+                    <li><a href="#serviços"> Serviços </a> </li>
+                    <li><a href="#contato"> Contato </a></li>
+                    <li><a href="#depoimentos"> Depoimentos </a></li>
                     <li><a href="#home"> Blog </a></li>
-                    <li><a href="#home"> Sobre </a></li>
+                    <li><a href="../sobre/"> Sobre </a></li>
                 </ul>
             </div>
 

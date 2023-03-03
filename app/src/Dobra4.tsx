@@ -2,7 +2,7 @@ import React from 'react'
 
 function Dobra4 () {
     return (
-        <div className="flex flex-col justify-center items-center py-10 text-center w-full gap-4">
+        <div id="depoimentos" className="flex flex-col justify-center items-center py-10 text-center w-full gap-4">
             <h3 className="font-bold text-prim text-lg tablet:text-4xl">O que nossos clientes dizem:</h3>
 
             <div className="w-full tablet:w-3/4 h-40 tablet:h-56 bg-[#D9D9D9]"/>

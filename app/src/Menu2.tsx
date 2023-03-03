@@ -24,7 +24,7 @@ function Menu2() {
                 Blog
             </a>
 
-            <a href="#s" className='menu_item'>
+            <a href="../sobre/" className='menu_item'>
                 Sobre
             </a>
 

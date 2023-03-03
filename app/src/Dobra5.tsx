@@ -9,7 +9,7 @@ import { BsTelephoneFill } from 'react-icons/bs'
 
 function Dobra5() {
     return(
-        <div className="flex flex-row justify-center items-end desktop:items-center gap-4 tablet:gap-[13%] bg-[rgba(217,_217,_217,_.3)] pt-6">
+        <div id="contato" className="flex flex-row justify-center items-end desktop:items-center gap-4 tablet:gap-[13%] bg-[rgba(217,_217,_217,_.3)] pt-6">
                 <picture>
                     <source media="(min-width:640px)" srcSet={itemc} width='auto' />
                     <img src={itemb} alt="Menina jovem com um headset" width="auto" height="136px" className='w-[135px] tablet:w-[200px] desktop:w-[400px]'/>

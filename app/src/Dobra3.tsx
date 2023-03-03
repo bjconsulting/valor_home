@@ -120,7 +120,7 @@ function Dobra3() {
 
                             </div>
 
-                            <button className='rounded-xl font-bold flex justify-center items-center text-[13px] px-4 bg-white py-2 mt-6 mx-auto desktop:text-xl'>
+                            <button className='rounded-xl font-bold flex justify-center items-center text-[13px] px-4 bg-white py-2 mt-6 mx-auto desktop:text-xl hover:bg-sub hover:text-prim'>
                                 Simular agora
                             </button>
 
@@ -173,7 +173,7 @@ function Dobra3() {
 
                             </div>
 
-                            <button className='rounded-xl font-bold flex justify-center items-center text-[13px] px-4 bg-white py-2 mt-6 mx-auto desktop:text-xl'>
+                            <button className='rounded-xl font-bold flex justify-center items-center text-[13px] px-4 bg-white py-2 mt-6 mx-auto desktop:text-xl hover:bg-sub hover:text-prim'>
                                 Simular agora
                             </button>
 
