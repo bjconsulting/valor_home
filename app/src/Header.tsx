@@ -9,7 +9,7 @@ function Header() {
     const [open, setOpen] = useState(false);
     return (
         <>
-            <header className="w-[85%] desktop:w-[100vw] py-8 desktop:flex justify-between items-center desktop:h-[130px]">
+            <header className="w-full desktop:w-[100vw] py-8 desktop:flex justify-between items-center desktop:h-[130px]">
                 <div className="max-w-[85%] mx-auto flex justify-between desktop:min-w-[85%]">
                     <picture className="pointer-events-none flex justify-center items-center">
                         <source media="(min-width:640px)" srcSet={logo2} width='250px' height='auto' />
