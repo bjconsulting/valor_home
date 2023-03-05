@@ -21,10 +21,10 @@ function Dobra5() {
                 </h3>
 
                 <div className='flex justify-around items-center gap-4 desktop:gap-8'>
-                    <AiFillInstagram className="w-[2em] h-[2em] desktop:w-[3em] desktop:h-[3em] fill-sub"/>
-                    <AiFillFacebook className="w-[2em] h-[2em] desktop:w-[3em] desktop:h-[3em] fill-sub" />
-                    <RiWhatsappFill className="w-[2em] h-[2em] desktop:w-[3em] desktop:h-[3em] fill-sub" />
-                    <BsTelephoneFill className="w-[1.5em] h-[1.5em] desktop:w-[2.5em] desktop:h-[2.5em] fill-sub" />
+                    <a href="https://www.instagram.com/VALORSFINANCEIROS/" target="_blank"><AiFillInstagram className="w-[2em] h-[2em] desktop:w-[3em] desktop:h-[3em] fill-sub"/></a>
+                    <a href="https://www.facebook.com/valorsfinanceiros" target="_blank"><AiFillFacebook className="w-[2em] h-[2em] desktop:w-[3em] desktop:h-[3em] fill-sub" /></a>
+                    <a href="https://wa.me/5518991332855" target="_blank"><RiWhatsappFill className="w-[2em] h-[2em] desktop:w-[3em] desktop:h-[3em] fill-sub" /></a>
+                    <a href="tel:+551836007910" target="_blank"><BsTelephoneFill className="w-[1.5em] h-[1.5em] desktop:w-[2.5em] desktop:h-[2.5em] fill-sub" /></a>
                 </div>
 
                 <button className='rounded-xl bg-prim py-2 px-4 text-white font-bold text-[10px] mb-4 desktop:bg-sub desktop:text-2xl hover:text-sub hover:bg-prim'>Fale Conosco</button>
